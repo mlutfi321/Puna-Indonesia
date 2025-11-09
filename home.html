@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BUDAYA KOL — Beranda</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+<style>
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #faf8f5;
+}
+/* ===== HEADER ===== */
+.header-batik {
+  background-image: url('https://budayago.id/assets/719c91840397c58ac8b9c7ee1ed2325cd77bed0d-CtUbZrnW.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 120px;
+}
+.header-logo {
+  background: rgba(0,0,0,0.7);
+  color: white;
+  text-align: center;
+  padding: 25px 0;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.header-logo span { color: #ffb100; }
+/* ===== HERO ===== */
+.hero {
+  background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), 
+              url('https://budayago.id/assets/719c91840397c58ac8b9c7ee1ed2325cd77bed0d-CtUbZrnW.png');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 160px 20px;
+}
+.hero h1 { font-size: 48px; font-weight: 700; }
+.hero p { font-size: 18px; margin-top: 10px; color: #fff5d4; }
+.hero .btn {
+  margin-top: 25px;
+  font-size: 18px;
+  border-radius: 40px;
+  padding: 12px 30px;
+}
+/* ===== SECTION ===== */
+.section-title {
+  text-align: center;
+  font-weight: 700;
+  margin-top: 70px;
+  margin-bottom: 40px;
+  color: #222;
+}
+.feature-card {
+  background: #fff;
+  border-radius: 15px;
+  border: 1px solid #eee;
+  text-align: center;
+  padding: 30px 20px;
+  transition: 0.3s;
+}
+.feature-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+.feature-card i {
+  font-size: 50px;
+  color: #c89100;
+  margin-bottom: 15px;
+}
+/* ===== ABOUT US ===== */
+.about-section {
+  background: #fffdf8;
+  border-top: 3px solid #c89100;
+  border-radius: 15px;
+  padding: 60px 20px;
+  margin-top: 60px;
+}
+.about-section p {
+  color: #555;
+  font-size: 16px;
+  line-height: 1.8;
+  text-align: justify;
+}
+.about-icons {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 30px;
+}
+.about-icons div {
+  text-align: center;
+}
+.about-icons i {
+  font-size: 40px;
+  color: #c89100;
+  margin-bottom: 10px;
+}
+/* ===== FAQ ===== */
+.faq-section {
+  background: #fffdf8;
+  border-top: 3px solid #c89100;
+  padding: 60px 20px;
+  margin-top: 60px;
+  border-radius: 15px;
+}
+.faq-item {
+  background: white;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+.faq-question {
+  background: #fff7e3;
+  color: #6b4c00;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 15px 20px;
+}
+.faq-answer {
+  padding: 15px 20px;
+  color: #555;
+}
+/* ===== FOOTER ===== */
+footer {
+  margin-top: 80px;
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 25px 10px;
+  font-size: 14px;
+}
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<div class="header-batik"></div>
+<div class="header-logo">
+  <span>BUDAYA</span> KOL — Platform Kreatif Nusantara
+</div>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container">
+    <h1>Eksplorasi Karya & Budaya Indonesia</h1>
+    <p>Bagikan karya, tukarkan poin, dan dukung produk lokal dari seluruh nusantara.</p>
+    <a href="#features" class="btn btn-warning text-dark fw-semibold"><i class="bi bi-play-circle"></i> Mulai Sekarang</a>
+  </div>
+</section>
+
+<!-- FITUR -->
+<section id="features" class="container">
+  <h2 class="section-title">Fitur Utama</h2>
+  <div class="row g-4">
+    <div class="col-md-4">
+      <div class="feature-card">
+        <i class="bi bi-cloud-arrow-up"></i>
+        <h5 class="fw-bold mt-2">Upload Karya Budaya</h5>
+        <p class="text-muted small">Unggah foto atau video karya lokal kamu dan dapatkan dukungan dari masyarakat.</p>
+        <a href="upload.html" class="btn btn-outline-warning text-dark fw-semibold">Upload Sekarang</a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="feature-card">
+        <i class="bi bi-arrow-left-right"></i>
+        <h5 class="fw-bold mt-2">Tukar Poin</h5>
+        <p class="text-muted small">Dapatkan poin dari aktivitas dan tukarkan dengan produk lokal Indonesia.</p>
+        <a href="tukar.html" class="btn btn-outline-warning text-dark fw-semibold">Lihat Hadiah</a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="feature-card">
+        <i class="bi bi-basket2"></i>
+        <h5 class="fw-bold mt-2">Produk Khas Indonesia</h5>
+        <p class="text-muted small">Temukan produk fashion, kriya, dan kuliner unik dari pengrajin lokal.</p>
+        <a href="produk.html" class="btn btn-outline-warning text-dark fw-semibold">Jelajahi Produk</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TENTANG KAMI -->
+<section class="about-section container">
+  <h2 class="section-title">Tentang Kami</h2>
+<p> <strong>Budaya, Ekonomi, dan Kesehatan</strong> adalah tiga pilar yang saling terhubung dalam membentuk kesejahteraan masyarakat. Budaya memberi identitas dan arah nilai, ekonomi memberi daya dan kemandirian, sementara kesehatan menjaga keseimbangan hidup agar semua dapat tumbuh bersama secara berkelanjutan. </p> <p> Kami percaya bahwa kemajuan bangsa tidak hanya diukur dari pertumbuhan ekonomi, tetapi juga dari bagaimana masyarakat menjaga warisan budayanya dan hidup dengan tubuh serta pikiran yang sehat. Dengan semangat kebersamaan dan inovasi, kami ingin mendorong ekosistem yang harmonis—di mana tradisi, kesejahteraan, dan kesehatan berjalan seiring untuk masa depan yang lebih baik. </p>
+
+  <div class="about-icons">
+    <div>
+      <i class="bi bi-heart-fill"></i>
+      <p class="fw-semibold">Pelestarian Budaya</p>
+    </div>
+    <div>
+      <i class="bi bi-people-fill"></i>
+      <p class="fw-semibold">Pemberdayaan Komunitas</p>
+    </div>
+    <div>
+      <i class="bi bi-lightbulb-fill"></i>
+      <p class="fw-semibold">Inovasi Kreatif</p>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ SECTION -->
+<section id="faq" class="container faq-section">
+  <h2 class="section-title mb-4">Budaya Ekonomi Indonesia</h2>
+
+  <div class="accordion" id="faqAccordion">
+    <div class="faq-item">
+      <h6 class="faq-question" data-bs-toggle="collapse" data-bs-target="#faq1">
+        <i class="bi bi-question-circle me-2"></i> Apa yang dimaksud dengan budaya ekonomi Indonesia?
+      </h6>
+      <div id="faq1" class="collapse faq-answer" data-bs-parent="#faqAccordion">
+        Budaya ekonomi Indonesia berakar pada nilai-nilai gotong royong, kebersamaan, dan keadilan sosial.
+        Konsep ini menekankan keseimbangan antara keuntungan ekonomi dan kesejahteraan masyarakat,
+        sesuai dengan prinsip ekonomi Pancasila.
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <h6 class="faq-question" data-bs-toggle="collapse" data-bs-target="#faq2">
+        <i class="bi bi-question-circle me-2"></i> Bagaimana budaya memengaruhi perilaku ekonomi masyarakat?
+      </h6>
+      <div id="faq2" class="collapse faq-answer" data-bs-parent="#faqAccordion">
+        Budaya menentukan cara masyarakat bekerja, berproduksi, dan berinteraksi dalam perdagangan.
+        Misalnya, nilai “rukun” dan “musyawarah” membuat pelaku usaha lebih kolaboratif,
+        sementara semangat kekeluargaan mendorong munculnya koperasi dan UMKM berbasis komunitas.
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <h6 class="faq-question" data-bs-toggle="collapse" data-bs-target="#faq3">
+        <i class="bi bi-question-circle me-2"></i> Apa peran UMKM dalam budaya ekonomi Indonesia?
+      </h6>
+      <div id="faq3" class="collapse faq-answer" data-bs-parent="#faqAccordion">
+        UMKM merupakan tulang punggung ekonomi rakyat. Selain menciptakan lapangan kerja,
+        UMKM menjaga keberlanjutan budaya lokal melalui produksi batik, anyaman, kuliner tradisional,
+        dan berbagai kriya khas daerah. Mereka adalah wujud nyata ekonomi berbasis kemandirian.
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <h6 class="faq-question" data-bs-toggle="collapse" data-bs-target="#faq4">
+        <i class="bi bi-question-circle me-2"></i> Apa yang dimaksud dengan ekonomi gotong royong?
+      </h6>
+      <div id="faq4" class="collapse faq-answer" data-bs-parent="#faqAccordion">
+        Ekonomi gotong royong adalah sistem di mana setiap individu saling membantu demi kesejahteraan bersama.
+        Contohnya, koperasi desa, pasar tradisional, dan komunitas kreatif lokal yang berbagi sumber daya
+        untuk memperkuat daya saing ekonomi daerah tanpa meninggalkan nilai kemanusiaan.
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <h6 class="faq-question" data-bs-toggle="collapse" data-bs-target="#faq5">
+        <i class="bi bi-question-circle me-2"></i> Bagaimana ekonomi kreatif mendukung pelestarian budaya Indonesia?
+      </h6>
+      <div id="faq5" class="collapse faq-answer" data-bs-parent="#faqAccordion">
+        Ekonomi kreatif memanfaatkan ide, seni, dan warisan budaya sebagai sumber nilai ekonomi baru.
+        Contohnya industri fashion etnik, film, musik tradisional, hingga kuliner khas daerah.
+        Dengan mengemas budaya lokal secara modern, ekonomi kreatif memperkuat identitas bangsa di pasar global.
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <h6 class="faq-question" data-bs-toggle="collapse" data-bs-target="#faq6">
+        <i class="bi bi-question-circle me-2"></i> Apa tantangan utama dalam menjaga budaya ekonomi Indonesia?
+      </h6>
+      <div id="faq6" class="collapse faq-answer" data-bs-parent="#faqAccordion">
+        Tantangan utamanya adalah globalisasi dan modernisasi yang bisa menggeser nilai-nilai lokal.
+        Oleh karena itu, penting menjaga keseimbangan antara inovasi dan pelestarian budaya agar ekonomi
+        berkembang tanpa kehilangan jati diri bangsa.
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  © 2025 Budaya KOL — Mengangkat Kreativitas & Warisan Nusantara.
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
