@@ -175,15 +175,51 @@ let userPoints = 250;
 
 // === Data Dummy ===
 let uploads = [
-  {id:1, title:'Kain Batik Mega Mendung', type:'image', src:'https://picsum.photos/600/400?random=2', votes:15},
-  {id:2, title:'Video Tari Kecak Bali', type:'video', src:'https://www.w3schools.com/html/mov_bbb.mp4', votes:22},
-  {id:3, title:'Ukiran Kayu Jepara', type:'image', src:'https://picsum.photos/600/400?random=3', votes:10}
+  {
+    id: 1,
+    title: 'Kain Batik Mega Mendung',
+    type: 'image',
+    src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXzhtKFI6zDKi5AdUMqyjbQVUXnPwPYg7JNQ&s',  // contoh batik
+    votes: 15
+  },
+  {
+    id: 2,
+    title: 'Video Tari Kecak Bali',
+    type: 'image',
+    src: 'https://awsimages.detik.net.id/community/media/visual/2020/08/25/tari-kecak-1_169.jpeg?w=1200',  // tetap video
+    votes: 22
+  },
+  {
+    id: 3,
+    title: 'Ukiran Kayu Jepara',
+    type: 'image',
+    src: 'https://tempatwisatajeparablog.wordpress.com/wp-content/uploads/2017/01/kaligrafi1.jpg',  // contoh ukiran kayu
+    votes: 10
+  }
 ];
+
 let products = [
-  {id:1, name:'Fashion - Kain Batik Modern', points:100, img:'https://picsum.photos/seed/fashion/600/400'},
-  {id:2, name:'Kriya - Tas Anyaman Rotan', points:150, img:'https://picsum.photos/seed/craft/600/400'},
-  {id:3, name:'Kuliner - Kopi Nusantara', points:80, img:'https://picsum.photos/seed/food/600/400'}
+  {
+    id: 1,
+    name: 'Fashion - Kain Batik Modern',
+    points: 100,
+    img: 'https://i0.wp.com/zaloraadmin.wpcomstaging.com/wp-content/uploads/2023/10/model-baju-batik.png?fit=1200%2C620&ssl=1'  // batik fashion
+  },
+  {
+    id: 2,
+    name: 'Kriya - Tas Anyaman Rotan Bali',
+    points: 150,
+    img: 'https://www.harapanrakyat.com/wp-content/uploads/2020/11/Tas-Rotan-Bali-Buat-Tampilan-Menarik-dan-Lebih-Unik.jpg'  // tas anyaman rotan
+  },
+  {
+    id: 3,
+    name: 'Kuliner - Kopi Nusantara',
+    points: 80,
+    img: 'https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/360b7f14-e648-40a4-a417-8937212352f9_IMG_20210619_104035_708.jpg'  // kopi nusantara
+  }
 ];
+
+
 
 // === Drag & Drop ===
 dropArea.addEventListener('click', ()=>fileInput.click());
